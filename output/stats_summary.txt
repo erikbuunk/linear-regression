@@ -1,0 +1,26 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:      Stock_Index_Price   R-squared:                       0.898
+Model:                            OLS   Adj. R-squared:                  0.888
+Method:                 Least Squares   F-statistic:                     92.07
+Date:                Thu, 18 Mar 2021   Prob (F-statistic):           4.04e-11
+Time:                        09:41:48   Log-Likelihood:                -134.61
+No. Observations:                  24   AIC:                             275.2
+Df Residuals:                      21   BIC:                             278.8
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+=====================================================================================
+                        coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------
+const              1798.4040    899.248      2.000      0.059     -71.685    3668.493
+Interest_Rate       345.5401    111.367      3.103      0.005     113.940     577.140
+Unemployment_Rate  -250.1466    117.950     -2.121      0.046    -495.437      -4.856
+==============================================================================
+Omnibus:                        2.691   Durbin-Watson:                   0.530
+Prob(Omnibus):                  0.260   Jarque-Bera (JB):                1.551
+Skew:                          -0.612   Prob(JB):                        0.461
+Kurtosis:                       3.226   Cond. No.                         394.
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
